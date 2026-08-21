@@ -1,0 +1,17 @@
+# Keep the deployment to the site itself. package.json stays visible to
+# Vercel on purpose: hiding it makes the CLI detect a build from the local
+# filesystem that the uploaded files can no longer satisfy, and the build
+# then yields an empty output. vercel.json disables install/build instead.
+
+node_modules
+temporary screenshots
+.baseline
+.imgcache
+
+# Local dev tooling.
+*.mjs
+CLAUDE.webdesign.md
+
+# Design reference boards.
+laptop*.webp
+original-*.webp

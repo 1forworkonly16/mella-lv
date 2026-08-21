@@ -10,3 +10,8 @@ temporary screenshots/
 .DS_Store
 Thumbs.db
 *.log
+
+.vercel
+
+# Vercel local project linkage and prebuilt output
+.vercel
