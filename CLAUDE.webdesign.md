@@ -15,7 +15,7 @@
 - If the server is already running, do not start a second instance.
 
 ## Screenshot Workflow
-- Puppeteer is installed at `C:/Users/nateh/AppData/Local/Temp/puppeteer-test/`. Chrome cache is at `C:/Users/nateh/.cache/puppeteer/`.
+- `screenshot.mjs` finds a browser on its own: newest build under `~/.cache/puppeteer/chrome/`, else an installed Chrome or Edge. No path configuration needed.
 - **Always screenshot from localhost:** `node screenshot.mjs http://localhost:3000`
 - Screenshots are saved automatically to `./temporary screenshots/screenshot-N.png` (auto-incremented, never overwritten).
 - Optional label suffix: `node screenshot.mjs http://localhost:3000 label` → saves as `screenshot-N-label.png`
