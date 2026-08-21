@@ -1,0 +1,12 @@
+# Dependencies
+node_modules/
+
+# Screenshot + visual-regression working data (regenerable, ~300 MB)
+temporary screenshots/
+.baseline/
+.imgcache/
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.log

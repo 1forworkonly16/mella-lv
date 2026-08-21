@@ -1,0 +1,13 @@
+# Normalise line endings in the repo; let checkouts use native endings.
+* text=auto
+
+*.html text eol=lf
+*.mjs  text eol=lf
+*.js   text eol=lf
+*.json text eol=lf
+*.md   text eol=lf
+
+*.webp binary
+*.png  binary
+*.jpg  binary
+*.woff2 binary
